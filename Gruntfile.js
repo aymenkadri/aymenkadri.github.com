@@ -363,7 +363,7 @@ module.exports = function (grunt) {
       pages: {
         options: {
           remote: 'https://github.com/aymenkadri/aymenkadri.github.com.git',
-          branch: 'dev'
+          branch: 'master'
         }
       },
       local: {
