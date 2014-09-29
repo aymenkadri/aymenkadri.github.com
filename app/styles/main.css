@@ -43,7 +43,7 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-    text-align: center;
+    height: 600px;
     border-bottom: 1px solid #e5e5e5;
 }
 .jumbotron .btn {
@@ -77,17 +77,22 @@ body {
         border-bottom: 0;
     }
 
+    ul li {float: left;}
     footer{width:830px;height:50px;margin:40px auto 0 auto;padding:10px 0 0 0;}
     ul.socicon{margin:0}ul.socicon li{display:block;padding:0;margin:0 5px 0 0;float:left}
     ul.socicon li a{width:32px;height:32px;display:block;padding:0;margin:0}
-    ul.socicon li a.dribbble{background:url(../images/dribbble.png) 0 0 no-repeat}
-    ul.socicon li a.facebook{background:url(../images/facebook.png) 0 0 no-repeat}
-    ul.socicon li a.google{ background:url(../images/google.png) 0 0 no-repeat;}
     ul.socicon li a.twitter{background:url(../images/twitter.png) 0 0 no-repeat}
-    ul.socicon li a.flickr{background:url(../images/flickr.png) 0 0 no-repeat}
-    ul.socicon li a.linkedin{background:url(../images/twitter.png) 0 0 no-repeat}
-    ul.socicon li a.vimeo{background:url(../images/vimeo.png) 0 0 no-repeat}
+    ul.socicon li a.viadeo{background:url(../images/viadeo.png) 0 0 no-repeat}
+    ul.socicon li a.linkedin{background:url(../images/linkedin.png) 0 0 no-repeat}
+    ul.socicon li a.github {background:url(../images/github.png) 0 0 no-repeat}
     ul.socicon li a:hover{background-position:0 -32px}
     ul.socicon li.last{margin-right:0}
     .tipsy{padding:5px;background-repeat:no-repeat;opacity:0.8;filter:alpha(opacity=80); background-image:url(../images/twitter.png)}
+
+    footer {
+        float: right;
+    }
+    footer ul {
+        float: right;
+    }
 }
