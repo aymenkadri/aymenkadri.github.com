@@ -8,10 +8,11 @@
  * Controller of the aymenkadrigithubcomApp
  */
 angular.module('aymenkadrigithubcomApp')
-  .controller('DownloadCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+    .controller('DownloadCtrl', function ($scope, $location, $window) {
+        $window._gaq.push(['_trackPageView', $location.path()]);
+        $scope.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma'
+        ];
+    });
