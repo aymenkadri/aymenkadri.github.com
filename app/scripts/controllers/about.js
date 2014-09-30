@@ -9,7 +9,7 @@
  */
 angular.module('aymenkadrigithubcomApp')
     .controller('AboutCtrl', function ($scope, $location, $window) {
-        $window._gaq.push(['_trackEvent', $location.path(), "Click"]);
+        $window._gaq.push(['_trackEvent', "HEAD", "About"]);
         $scope.awesomeThings = [
             'HTML5 Boilerplate',
             'AngularJS',

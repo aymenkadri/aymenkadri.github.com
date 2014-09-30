@@ -9,7 +9,7 @@
  */
 angular.module('aymenkadrigithubcomApp')
     .controller('DownloadCtrl', function ($scope, $location, $window) {
-        $window._gaq.push(['_trackEvent', $location.path(), "Click"]);
+        $window._gaq.push(['_trackEvent', "HEAD", "Download"]);
         $scope.awesomeThings = [
             'HTML5 Boilerplate',
             'AngularJS',
