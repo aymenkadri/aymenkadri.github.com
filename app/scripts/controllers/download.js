@@ -9,6 +9,6 @@
  */
 angular.module('aymenkadrigithubcomApp')
     .controller('DownloadCtrl', function ($scope, $location, $window) {
-        $window.ga.push(['_trackEvent', 'HEAD', 'Download']);
+        $window._gaq.push(['_trackEvent', 'HEAD', 'Download']);
         $scope.title = 'Download';
     });

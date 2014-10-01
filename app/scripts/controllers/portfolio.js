@@ -9,6 +9,6 @@
  */
 angular.module('aymenkadrigithubcomApp')
     .controller('PortfolioCtrl', function ($scope, $location, $window) {
-        $window.ga.push(['_trackEvent', 'HEAD', 'Portfolio']);
+        $window._gaq.push(['_trackEvent', 'HEAD', 'Portfolio']);
         $scope.title = 'Portfolio';
     });
