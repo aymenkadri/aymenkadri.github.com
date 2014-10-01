@@ -9,10 +9,6 @@
  */
 angular.module('aymenkadrigithubcomApp')
     .controller('MainCtrl', function ($scope, $location, $window) {
-        $window._gaq.push(['_trackEvent', "HEAD", "Main"]);
-        $scope.awesomeThings = [
-            'HTML5 Boilerplate',
-            'AngularJS',
-            'Karma'
-        ];
+        $scope.title = 'Home';
+        $window._gaq.push(['_trackEvent', 'HEAD', 'Main']);
     });

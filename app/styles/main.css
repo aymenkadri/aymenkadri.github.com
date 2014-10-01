@@ -96,3 +96,8 @@ body {
         float: right;
     }
 }
+
+.description {
+    font-family: "Courier New", Courier, monospace;
+    font-size: large;
+}
