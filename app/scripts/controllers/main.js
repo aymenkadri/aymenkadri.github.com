@@ -10,5 +10,5 @@
 angular.module('aymenkadrigithubcomApp')
     .controller('MainCtrl', function ($scope, $location, $window) {
         $scope.title = 'Home';
-        $window._gaq.push(['_trackEvent', 'HEAD', 'Main']);
+        $window.ga.push(['_trackEvent', 'HEAD', 'Main']);
     });
