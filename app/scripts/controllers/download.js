@@ -8,7 +8,7 @@
  * Controller of the aymenkadrigithubcomApp
  */
 angular.module('aymenkadrigithubcomApp')
-    .controller('DownloadCtrl', function ($scope, $location, $window) {
+    .controller('DownloadCtrl', function ($rootScope, $location, $window) {
         $window._gaq.push(['_trackEvent', 'HEAD', 'Download']);
-        $scope.title = 'Download';
+        $rootScope.title = 'Download';
     });
