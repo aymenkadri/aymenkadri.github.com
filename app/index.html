@@ -40,25 +40,25 @@
         <ul class="socicon right">
             <li>
                 <a href="https://twitter.com/#!/akregueb"
-                   ng-click="$window._gaq.push(['_trackEvent', 'Footer', 'Twitter'])"
+                   ng-click="$rootScope.twitter()"
                    class="twitter" original-title="twitter" style="margin-top: 0px;">
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/profile/view?id=78115787"
-                   ng-click="$window._gaq.push(['_trackEvent', 'Footer', 'Linkedin'])"
+                   ng-click="$rootScope.linkedin()"
                    class="linkedin" original-title="linkedin" style="margin-top: 0px;">
             </a></li>
 
             <li>
                 <a href="http://www.viadeo.com/profile/0022arjter377847"
-                   ng-click="$window._gaq.push(['_trackEvent', 'Footer', 'Viadeo'])"
+                   ng-click="$rootScope.viadeo()"
                    class="viadeo" original-title="viadeo" style="margin-top: 0px;">
                 </a>
             </li>
             <li>
                 <a href="https://github.com/aymenkadri/"
-                   ng-click="$window._gaq.push(['_trackEvent', 'Footer', 'Github'])"
+                   ng-click="$rootScope.github()"
                    class="github" original-title="github" style="margin-top: 0px;">
             </a></li>
 
@@ -103,6 +103,7 @@
 <script src="scripts/controllers/main.js"></script>
 <script src="scripts/controllers/portfolio.js"></script>
 <script src="scripts/controllers/download.js"></script>
+<script src="scripts/controllers/footer.js"></script>
 <!-- endbuild -->
 </body>
 </html>
