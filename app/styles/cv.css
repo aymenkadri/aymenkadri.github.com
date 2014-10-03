@@ -111,6 +111,7 @@ input#img-4:checked ~ .nav-dots label#img-dot-4, {
     background: rgba(0, 0, 0, 0.8);
 }
 
-.technUsed {
-    font-style: italic;
+.label:hover {
+    background-color: #419641;
+    color: #474747;
 }
